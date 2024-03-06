@@ -1,0 +1,59 @@
+
+<!doctype html>
+
+<html>
+
+    <head>
+        <title> csie </title>
+        <meta chartset="UTF-8">
+    </head>
+
+    <body>
+        <h1>csie</h1>
+        <table id="csie"style="border:10px solid pink">
+            <tr>
+                <th style="border:10px solid pink">開課單位</th>
+                <th style="border:10px solid pink">課程名稱</th>
+                <th style="border:10px solid pink">授課老師</th>
+            </tr>
+            <tr>
+                <td style="border:20px solid pink">資工系</td>
+                <td style="border:20px solid pink">物件導向軟體設計</td>
+                <td style="border:20px solid pink">黃崇源</td>
+            </tr>
+            <tr>
+                <td style="border:20px solid pink">資工系</td>
+                <td style="border:20px solid pink">計算機網路實驗</td>
+                <td style="border:20px solid pink">李春良</td>
+            </tr>
+            <tr>
+                <td style="border:20px solid pink">資工系</td>
+                <td style="border:20px solid pink">作業系統實務</td>
+                <td style="border:20px solid pink">張哲維</td>
+            </tr>
+            <tr>
+                <td style="border:20px solid pink">資工系</td>
+                <td style="border:20px solid pink">生物統計</td>
+                <td style="border:20px solid pink">陳光武</td>
+            </tr>
+            <tr>
+                <td style="border:20px solid pink">資工系</td>
+                <td style="border:20px solid pink">通訊系統</td>
+                <td style="border:20px solid pink">陳仁輝</td>
+            </tr>
+            <tr>
+                <td style="border:20px solid pink">資工系</td>
+                <td style="border:20px solid pink">軟硬體專體(2)</td>
+                <td style="border:20px solid pink">魏志達</td>
+            </tr>
+        </table>
+    </body>
+    
+    <button onclick="changeResult()"› Change </button> 
+    <script>
+    function changeResult () {
+        var Mytable = document.getElementById("csie");
+        Mytable.rows [1].cells [2].innerHTML= "李春良";
+    }
+    </script>
+</html>
